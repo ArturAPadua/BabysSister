@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "403133889319",
+    "firebase_url": "https://baby-s-sister-default-rtdb.firebaseio.com",
+    "project_id": "baby-s-sister",
+    "storage_bucket": "baby-s-sister.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403133889319:android:5ba0da0df44187e69a4702",
+        "android_client_info": {
+          "package_name": "br.com.babyssister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403133889319-difgeru49j4p6s5n29hqtkeim5t96vvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhxqog9nmb2D79j_3eZFHfdhXa2ElgCA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403133889319-difgeru49j4p6s5n29hqtkeim5t96vvr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "403133889319-jdrhfu2u6fdl357lp5mva2q8089iuse4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Vitoria-Santos.BabySister"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

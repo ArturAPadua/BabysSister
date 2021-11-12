@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.babyssister">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Babyssister"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ConfiguracaoBaba"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilContratanteVisaoBaba"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilContratante"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilBabaVisaoContratante"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilBaba"
+            android:exported="true" />
+        <activity
+            android:name=".HomeContratante"
+            android:exported="true" />
+        <activity
+            android:name=".ChatContratante"
+            android:exported="true" />
+        <activity
+            android:name=".ChatBaba"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroContratanteFinal"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroContratantePt2"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroContratantePt1"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroBabaFinal"
+            android:exported="true" />
+        <activity
+            android:name=".CadastroBaba"
+            android:exported="true" />
+        <activity
+            android:name=".Cadastro"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
